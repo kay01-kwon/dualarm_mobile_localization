@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>dualarm_mobile_localization</name>
+  <version>0.0.1</version>
+  <description>robot localization package</description>
+
+  <license>GPLv3</license>
+
+  <author email="lim.yonsei@gmail.com">Jaehyun Lim</author>
+
+  <maintainer email="lim.yonsei@gmail.com">Jaehyun Lim</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>gmapping</run_depend>
+  <run_depend>cartographer_ros</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>amcl</run_depend>
+  <run_depend>map_server</run_depend>
+  <run_depend>robot_localization</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>topic_tools</run_depend>
+
+</package>
